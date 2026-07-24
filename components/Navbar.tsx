@@ -18,7 +18,7 @@ export default function Navbar() {
   }, []);
   if (!visible) return null;
   return (
-    <nav className="menu-enter absolute z-20 flex w-full items-center justify-between px-6 py-7 text-stone-100 md:px-12">
+    <nav className="menu-enter absolute top-0 left-0 z-20 flex w-full items-center justify-between px-6 py-7 text-stone-100 md:px-12">
       <Link href="/" className="serif text-3xl tracking-tight" aria-label="Sam home"><span className="text-[#a63238]">S</span>am<span className="text-[#a63238]">.</span></Link>
       <div className="hidden items-center gap-8 text-xs uppercase tracking-[.18em] lg:flex">
         {links.map(([label, href]) => <Link key={label} href={href} className="nav-link">{label}</Link>)}
