@@ -1,0 +1,8 @@
+<svg width="1600" height="1000" viewBox="0 0 1600 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1000" fill="#39302A"/><rect x="1120" width="480" height="1000" fill="#6D5745"/>
+<path d="M1170 0H1230V1000H1170zM1320 0H1380V1000H1320zM1470 0H1530V1000H1470z" fill="#26231F" opacity=".72"/>
+<path d="M1120 120H1600M1120 330H1600M1120 540H1600M1120 750H1600" stroke="#26231F" stroke-width="16" opacity=".72"/>
+<ellipse cx="1040" cy="470" rx="240" ry="390" fill="#201C1A" opacity=".46"/><path d="M740 1000C780 690 865 530 1000 530C1135 530 1210 690 1250 1000H740Z" fill="#211C19" opacity=".72"/>
+<path d="M0 790C270 700 480 730 720 870V1000H0V790Z" fill="#211B18" opacity=".64"/><circle cx="1420" cy="330" r="110" fill="#C1A26D" opacity=".15"/>
+<filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".7" numOctaves="3" stitchTiles="stitch"/><feColorMatrix values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .08 0"/></filter><rect width="1600" height="1000" filter="url(#n)" opacity=".48"/>
+</svg>
