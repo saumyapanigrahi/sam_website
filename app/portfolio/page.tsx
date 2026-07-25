@@ -64,7 +64,7 @@ const experience = [
 
 export default function PortfolioPage() {
   return (
-    <main className="bg-[#090909] text-stone-200">
+    <main className="portfolio-page text-stone-200">
       <section className="relative overflow-hidden border-b border-stone-800">
         <Navbar />
 
@@ -124,7 +124,7 @@ export default function PortfolioPage() {
           <div className="portfolio-photo relative mx-auto w-full max-w-md">
             <div className="absolute -inset-3 bg-[#851d25] opacity-20 blur-3xl" />
 
-            <div className="relative overflow-hidden border border-stone-700 bg-stone-900">
+            <div className="portrait-frame relative overflow-hidden bg-stone-900">
               <img
                 src="/images/saumya-portrait.png"
                 alt="Saumyarajan Panigrahi"
@@ -146,7 +146,7 @@ export default function PortfolioPage() {
           Professional Summary
         </p>
 
-        <p className="serif mt-6 max-w-4xl text-2xl leading-relaxed text-stone-200 md:text-3xl">
+        <p className="mt-6 max-w-6xl text-lg leading-8 text-stone-300 md:text-2xl md:leading-10">
           Results-driven Data Analyst professional with total 4 years of
           progressive experience across telecom, healthcare, e-commerce, and
           energy sectors. Holds an MSc in Data Science from the University of
@@ -157,7 +157,7 @@ export default function PortfolioPage() {
         </p>
       </section>
 
-      <section className="portfolio-section border-y border-stone-800 bg-[#0d0d0e]">
+      <section className="portfolio-section scroll-reveal mx-auto max-w-7xl px-6 py-24 md:px-12">
         <div className="mx-auto max-w-7xl px-6 py-24 md:px-12">
           <p className="text-xs uppercase tracking-[0.25em] text-[#c05a5f]">
             Core Competencies
@@ -245,7 +245,7 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      <section className="portfolio-section border-y border-stone-800 bg-[#0d0d0e]">
+      <section className="portfolio-section scroll-reveal mx-auto max-w-7xl px-6 py-24 md:px-12">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 md:grid-cols-2 md:px-12">
           <div>
             <p className="text-xs uppercase tracking-[0.25em] text-[#c05a5f]">
