@@ -123,7 +123,7 @@ export default function PortfolioPage() {
             <div className="absolute -inset-3 bg-[#851d25] opacity-20 blur-3xl" />
             <div className="relative overflow-hidden border border-stone-700 bg-stone-900">
               <img
-                src="/images/saumya-portrait.jpg"
+                src="/images/saumya-portrait.png"
                 alt="Saumyarajan Panigrahi"
                 className="h-[550px] w-full object-cover grayscale transition duration-700 hover:grayscale-0"
               />
