@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 const links = [
   ["Home", "/"], ["Portfolio", "/portfolio"], ["Blogs", "/blogs"],
-  ["Services", "/services"], ["Business", "/business"]
+  ["Services", "/services"], ["Shopping", "/shopping"]
 ];
 
 export default function Navbar() {
