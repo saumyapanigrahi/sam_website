@@ -136,21 +136,7 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-24 md:px-12">
-        <p className="text-xs uppercase tracking-[0.25em] text-[#c05a5f]">
-          Professional Summary
-        </p>
-
-        <p className="serif mt-6 max-w-4xl text-2xl leading-relaxed text-stone-200 md:text-3xl">
-          Results-driven Data Analyst professional with total 4 years of
-          progressive experience across telecom, healthcare, e-commerce, and
-          energy sectors. Holds an MSc in Data Science from the University of
-          East Anglia, UK. Proficient in Advanced SQL, Python, MS Excel, Power
-          BI, DAX, and Power Query with hands-on experience in exploratory data
-          analysis, data validation, data lineage, source-to-target mapping,
-          and transformation specifications.
-        </p>
-      </section>
+      
 
       <section className="border-y border-stone-800 bg-[#0d0d0e]">
         <div className="mx-auto max-w-7xl px-6 py-24 md:px-12">
