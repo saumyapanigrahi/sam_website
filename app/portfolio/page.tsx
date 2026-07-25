@@ -64,12 +64,12 @@ const experience = [
 
 export default function PortfolioPage() {
   return (
-    <main className="portfolio-page text-stone-200">
+    <main className="bg-[#090909] text-stone-200">
       <section className="relative overflow-hidden border-b border-stone-800">
         <Navbar />
 
         <div className="mx-auto grid min-h-screen max-w-7xl items-center gap-12 px-6 pb-20 pt-32 md:grid-cols-2 md:px-12">
-          <div className="portfolio-intro">
+          <div>
             <p className="text-xs uppercase tracking-[0.25em] text-[#c05a5f]">
               Data Analyst · Portfolio
             </p>
@@ -92,7 +92,7 @@ export default function PortfolioPage() {
             <div className="mt-10 flex flex-wrap gap-3">
               <Link
                 href="mailto:saumya.panigrahi24@gmail.com"
-                className="portfolio-button border border-stone-600 px-5 py-3 text-xs uppercase tracking-[0.14em] transition hover:border-[#b13b42] hover:bg-[#b13b42]"
+                className="border border-stone-600 px-5 py-3 text-xs uppercase tracking-[0.14em] transition hover:border-[#b13b42] hover:bg-[#b13b42]"
               >
                 Email me
               </Link>
@@ -100,7 +100,7 @@ export default function PortfolioPage() {
               <Link
                 href="https://www.linkedin.com/in/saumya-rp/"
                 target="_blank"
-                className="portfolio-button border border-stone-700 px-5 py-3 text-xs uppercase tracking-[0.14em] transition hover:border-stone-300"
+                className="border border-stone-700 px-5 py-3 text-xs uppercase tracking-[0.14em] transition hover:border-stone-300"
               >
                 LinkedIn
               </Link>
@@ -108,31 +108,26 @@ export default function PortfolioPage() {
               <Link
                 href="https://github.com/saumyapanigrahi"
                 target="_blank"
-                className="portfolio-button border border-stone-700 px-5 py-3 text-xs uppercase tracking-[0.14em] transition hover:border-stone-300"
+                className="border border-stone-700 px-5 py-3 text-xs uppercase tracking-[0.14em] transition hover:border-stone-300"
               >
                 GitHub
               </Link>
             </div>
-
-            <div className="portfolio-accent-line" />
 
             <p className="mt-8 text-sm text-stone-500">
               Bengaluru, India · +91-7684083166
             </p>
           </div>
 
-          <div className="portfolio-photo relative mx-auto w-full max-w-md">
+          <div className="relative mx-auto w-full max-w-md">
             <div className="absolute -inset-3 bg-[#851d25] opacity-20 blur-3xl" />
-
-            <div className="portrait-frame relative overflow-hidden bg-stone-900">
+            <div className="relative overflow-hidden border border-stone-700 bg-stone-900">
               <img
-                src="/images/saumya-portrait.png"
+                src="/images/saumya-portrait.jpg"
                 alt="Saumyarajan Panigrahi"
                 className="h-[550px] w-full object-cover grayscale transition duration-700 hover:grayscale-0"
               />
-
               <div className="absolute inset-0 bg-gradient-to-t from-[#090909] via-transparent to-transparent" />
-
               <p className="absolute bottom-6 left-6 text-xs uppercase tracking-[0.2em] text-stone-300">
                 Data · Insight · Impact
               </p>
@@ -141,12 +136,12 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      <section className="portfolio-section mx-auto max-w-7xl px-6 py-24 md:px-12">
+      <section className="mx-auto max-w-7xl px-6 py-24 md:px-12">
         <p className="text-xs uppercase tracking-[0.25em] text-[#c05a5f]">
           Professional Summary
         </p>
 
-        <p className="mt-6 max-w-6xl text-lg leading-8 text-stone-300 md:text-2xl md:leading-10">
+        <p className="serif mt-6 max-w-4xl text-2xl leading-relaxed text-stone-200 md:text-3xl">
           Results-driven Data Analyst professional with total 4 years of
           progressive experience across telecom, healthcare, e-commerce, and
           energy sectors. Holds an MSc in Data Science from the University of
@@ -157,17 +152,15 @@ export default function PortfolioPage() {
         </p>
       </section>
 
-      <section className="portfolio-section scroll-reveal mx-auto max-w-7xl px-6 py-24 md:px-12">
+      <section className="border-y border-stone-800 bg-[#0d0d0e]">
         <div className="mx-auto max-w-7xl px-6 py-24 md:px-12">
           <p className="text-xs uppercase tracking-[0.25em] text-[#c05a5f]">
             Core Competencies
           </p>
 
           <div className="mt-10 grid gap-8 md:grid-cols-3">
-            <div className="skill-card border-t border-stone-700 p-5 pt-5">
-              <h2 className="serif text-2xl text-stone-100">
-                Data Analysis & BI
-              </h2>
+            <div className="border-t border-stone-700 pt-5">
+              <h2 className="serif text-2xl text-stone-100">Data Analysis & BI</h2>
               <p className="mt-4 text-sm leading-7 text-stone-400">
                 Power BI Desktop & Service, DAX, Power Query, SQL, Microsoft
                 Excel, KPI Reporting, SQL Server, Financial & Billing Analysis,
@@ -176,10 +169,8 @@ export default function PortfolioPage() {
               </p>
             </div>
 
-            <div className="skill-card border-t border-stone-700 p-5 pt-5">
-              <h2 className="serif text-2xl text-stone-100">
-                Data Modelling & Integration
-              </h2>
+            <div className="border-t border-stone-700 pt-5">
+              <h2 className="serif text-2xl text-stone-100">Data Modelling & Integration</h2>
               <p className="mt-4 text-sm leading-7 text-stone-400">
                 Data Modelling, Star Schema, Fact & Dimension Table Design,
                 Semantic Models, Row-Level Security (RLS), Microsoft Fabric,
@@ -188,10 +179,8 @@ export default function PortfolioPage() {
               </p>
             </div>
 
-            <div className="skill-card border-t border-stone-700 p-5 pt-5">
-              <h2 className="serif text-2xl text-stone-100">
-                Professional Skills
-              </h2>
+            <div className="border-t border-stone-700 pt-5">
+              <h2 className="serif text-2xl text-stone-100">Professional Skills</h2>
               <p className="mt-4 text-sm leading-7 text-stone-400">
                 Analytical Thinking, Problem-Solving, Cross-Functional
                 Collaboration, Stakeholder Communication, Time Management, Data
@@ -202,17 +191,14 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      <section className="portfolio-section mx-auto max-w-7xl px-6 py-24 md:px-12">
+      <section className="mx-auto max-w-7xl px-6 py-24 md:px-12">
         <p className="text-xs uppercase tracking-[0.25em] text-[#c05a5f]">
           Professional Experience
         </p>
 
         <div className="mt-12 space-y-16">
           {experience.map((job) => (
-            <article
-              key={job.role}
-              className="experience-card grid gap-6 border-t border-stone-800 p-5 pt-7 md:grid-cols-[220px_1fr]"
-            >
+            <article key={job.role} className="grid gap-6 border-t border-stone-800 pt-7 md:grid-cols-[220px_1fr]">
               <div>
                 <p className="text-sm text-[#d36d72]">{job.dates}</p>
                 <p className="mt-3 text-sm text-stone-500">{job.location}</p>
@@ -220,7 +206,6 @@ export default function PortfolioPage() {
 
               <div>
                 <h2 className="serif text-3xl text-stone-100">{job.role}</h2>
-
                 <p className="mt-2 text-sm uppercase tracking-[0.12em] text-stone-400">
                   {job.company}
                 </p>
@@ -245,7 +230,7 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      <section className="portfolio-section scroll-reveal mx-auto max-w-7xl px-6 py-24 md:px-12">
+      <section className="border-y border-stone-800 bg-[#0d0d0e]">
         <div className="mx-auto grid max-w-7xl gap-12 px-6 py-24 md:grid-cols-2 md:px-12">
           <div>
             <p className="text-xs uppercase tracking-[0.25em] text-[#c05a5f]">
@@ -254,9 +239,7 @@ export default function PortfolioPage() {
 
             <div className="mt-8 space-y-8">
               <div className="border-l border-[#b13b42] pl-5">
-                <p className="serif text-2xl text-stone-100">
-                  MSc in Data Science
-                </p>
+                <p className="serif text-2xl text-stone-100">MSc in Data Science</p>
                 <p className="mt-2 text-sm text-stone-400">
                   University of East Anglia · Norwich, United Kingdom
                 </p>
@@ -264,9 +247,7 @@ export default function PortfolioPage() {
               </div>
 
               <div className="border-l border-stone-700 pl-5">
-                <p className="serif text-2xl text-stone-100">
-                  B.Tech in Mechanical Engineering
-                </p>
+                <p className="serif text-2xl text-stone-100">B.Tech in Mechanical Engineering</p>
                 <p className="mt-2 text-sm text-stone-400">
                   Biju Patnaik University of Technology (BPUT) · Odisha, India
                 </p>
@@ -281,7 +262,7 @@ export default function PortfolioPage() {
             </p>
 
             <div className="mt-8 space-y-7">
-              <div className="experience-card border-t border-stone-700 p-5">
+              <div>
                 <h3 className="serif text-2xl text-stone-100">
                   Sumo Wrestling Bout Outcome Prediction
                 </h3>
@@ -296,7 +277,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="experience-card border-t border-stone-700 p-5">
+              <div>
                 <h3 className="serif text-2xl text-stone-100">
                   Heart Disease Risk Prediction
                 </h3>
@@ -310,7 +291,7 @@ export default function PortfolioPage() {
                 </p>
               </div>
 
-              <div className="experience-card border-t border-stone-700 p-5">
+              <div>
                 <h3 className="serif text-2xl text-stone-100">
                   Client Experience KPI Analysis
                 </h3>
